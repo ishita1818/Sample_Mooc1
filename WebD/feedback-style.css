@@ -1,0 +1,52 @@
+h1{
+    margin-top: 5px;
+    color :white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:#F5C7D2;
+}
+body{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background: url("https://www.lifewire.com/thmb/_J3Xy4Ze_zuAwbHJA7F9wTk1epI=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/laptop-with-tulips-flowers-on-pink-background--flat-lay--top-view--composition-with-copy-space--923329710-5a9d76e318ba010037b53a45.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin :auto;
+    width: 600px;
+    backdrop-filter: blur(5px) contrast(.8);
+    padding: 10px;
+}
+.l1{
+    width: 300px;
+    display:inline-block;
+}  
+label{
+    margin-left: 10px;;
+}
+.radio{
+    margin-bottom: 14px;
+}
+.check{
+margin-left: 50px;
+}
+.wrapper{
+    margin-left: 50px;
+}
+input{
+    color : black;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+    background: transparent;
+    border-radius: 3.5px;
+    margin-bottom: 8px;
+}
+#suggest{
+    width: 380px;
+    margin-left: 10px;
+    margin-top: 8px;
+}

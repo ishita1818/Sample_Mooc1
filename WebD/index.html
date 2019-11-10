@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Course Feedback</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Montserrat|Poppins" rel="stylesheet">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <link rel="stylesheet" href="feedback-style.css" type="text/css">
+    </head>
+    <body>
+        <div class ="container">
+            <h1>Welcome!</h1>
+            <h2>Introduction to web development course feedback</h2>
+            <div class="wrapper">
+                <div class="form-element">
+                    <label for="name"  class ="l1">Full Name : </label>
+                    <input type="text" name="name" id="name" >
+                </div>
+                <div class="form-element">
+                    <label for="email" class ="l1">Email : </label>
+                    <input type="text" onblur="checkEmail()" name="email" id="email" placeholder="e.g : foo@example.com">
+                </div>
+                <div class="form-element">
+                    <label for="phone" class ="l1">Phone :</label>
+                    <input type="text" onblur="checkPhone()" name="phone" id="phone" placeholder="e.g : 0123456789">
+                </div>
+                <div class="form-element">
+                    <label for="score" class ="l1" >Overall experince (1-5) :</label>
+                    <input type="radio" class="radio" name="score" value="1">1
+                    <input type="radio" class="radio" name="score" value="2">2
+                    <input type="radio" class="radio" name="score" value="3">3
+                    <input type="radio" class="radio" name="score" value="4">4
+                    <input type="radio" class="radio" name="score" value="5">5<br>
+
+                </div>
+                <div class="form-element">
+                    <label for="feedback" class ="l1">Your Feedback : </label>
+                    <input type="text" name="feedback" id="feedback" >
+                </div>
+                <div class="form-element">
+                    <label for="good" >What did you like ? </label>
+                    <br><input type="checkbox" class="check" name= "good" value="1">
+                    The content of course<br>
+                    <input type="checkbox" class="check" name= "good" value="2">
+                    The working examples provided<br>
+                    <input type="checkbox" class="check" name= "good" value="3">
+                    The quizzes<br>
+                    <input type="checkbox" class="check" name= "good" value="4">
+                    The discussion prompt for doubt-clearance<br>
+                    <input type="checkbox" class="check" name= "good" value="5">
+                    The assignments<br>
+                </div>
+                <div class="form-element">
+                    <label for="suggest" >Any Suggestions for improvement : </label>
+                    <br><input type="text" name="suggest" id="suggest" >
+                </div>
+            </div>
+        </div>
+        <script src="feedback-javascript.js" type="text/javascript">
+        </script>
+    </body>
+
+</html>
